@@ -1,0 +1,295 @@
+/* IMPORTANDO A FONTE PRINCIPAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* RETIRANDO AS MARGENS E PADDINGS PADRÕES DO NAVEGADOR */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* DEFININDO UMA COR DE FUNDO PARA O SITE */
+
+body {
+    background-color: #2f3136;
+}
+
+/* DEFININDO UMA LARGURA DE 100% DA PÁGINA PARA AS LINHAS */
+
+.row {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* BACKGROUND AZUL CLARO */
+
+
+/* APONTANDO QUE OS CONTEUDOS DAS LINHAS TERÃO UM TAMANHO FIXO DE LARGURA E ALINHA-LOS AO CENTRO */
+
+.conteudo{
+    width: 1024px;
+    margin: 0 auto;  
+    align-items: center;
+}
+
+/* CABECALHO */
+
+.cabecalho{
+    width: 100%;
+    background-color: #7289da;
+    height: 90px;
+}
+
+.cabecalho .conteudo{
+    text-align: center;  
+}
+
+.cabecalho .nome{
+    width: 50%;
+    float: left;
+}
+
+.cabecalho .nome h1{
+    margin: 20px 0 0 20px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    text-align: start;
+}
+
+.cabecalho .menu{
+    float: right;
+}
+
+.cabecalho .conteudo .menu ul{
+    margin-top: 30px;
+}
+
+.cabecalho .conteudo .menu ul li{
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.cabecalho .conteudo .menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho .conteudo .menu img{
+    width: 35px;
+    height: 35px;
+}
+
+/* BIOGRAFIA */
+
+.biografia .conteudo{
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #7289da;
+    height: 250px;
+}
+
+.biografia .conteudo .imagem img{
+    float: left;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+}
+
+.biografia .conteudo .texto{
+    width: 750px;
+    float: right;
+}
+
+.biografia .texto p{
+    text-indent: 50px;
+    text-align: justify;
+    font-weight:normal;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding: 5px;
+}
+
+/* SUBTITULOS */
+
+.subtitulo h2{
+    font-weight:normal;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #7289da;
+    border-bottom: 2px solid black;
+}
+
+
+/* CONTATO */
+
+.contato .conteudo img{
+    width: 45px;
+    height: 45px;
+}
+
+.contato .conteudo ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.contato .conteudo{
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #7289da;
+    height: 75px;
+}
+
+.contato .conteudo .contatos {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* PROJETOS SOURCE */
+
+.projetos .conteudo{
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #7289da;
+}
+
+.projetos .conteudo .texto{
+    margin-top: 15px;
+    width: 750px;
+}
+
+.projetos .conteudo h2{
+    font-weight:normal;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #7289da;
+    border-bottom: 2px solid black;
+}
+
+.projetos .conteudo .texto p{
+    position: relative;
+    left: 130px;
+    text-align: center;
+    font-weight:normal;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding: 5px;
+}
+
+.conteudo h3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.projetos .conteudo a {
+    position: relative;
+    left: 425px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projetos .conteudo a span{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* PROJETO 1 */
+
+.projetos .conteudo .imagem1 img {
+    width: 900px;
+    height: 350px;
+    position: relative;
+    left: 65px;
+}
+
+/* PROJETO 2 */
+
+.projetos .conteudo .imagem1 img {
+    width: 900px;
+    height: 500px;
+    position: relative;
+    left: 65px;
+}
+
+
+/* PROJETO 3 */
+
+.projetos .conteudo .imagem2 img{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    left: 360px;
+}
+
+/* PROJETO 4 */
+
+.projetos .conteudo .imagem3 img{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 120px;
+}
+
+/* PROJETO 5 */
+
+.projetos .conteudo .imagem4 img{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 120px;
+}
+
+/* VEJA MAIS */
+
+#veja_mais .conteudo{
+    border: 1px solid gray;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1024px; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #7289da;
+}
+
+#veja_mais .conteudo .texto a{
+    font-size: 26px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#veja_mais .conteudo .texto a span{
+    color: white;
+}
+
+#veja_mais .conteudo .texto span:hover{
+    color: black;
+}
